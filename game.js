@@ -24,13 +24,13 @@ player2.color = "white";
 
 var ball = new GameObject();
 
-// ball.x = canvas.width / 2;
-// ball.y = canvas.height / 2;
-// ball.radius = 10;
-// ball.color = "black";
-// ball.xSpeed = 5;
-// ball.ySpeed = 5;
-context.drawImage(ric, 500, 250, 10px, 15px);
+ball.x = canvas.width / 2;
+ball.y = canvas.height / 2;
+ball.radius = 10;
+ball.color = "black";
+ball.xSpeed = 5;
+ball.ySpeed = 5;
+
 
 
 function animate()

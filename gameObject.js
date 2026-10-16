@@ -9,11 +9,7 @@ function GameObject()
 
     this.drawCircle = function()
     {
-        context.beginPath();
-        context.arc(this.x, this.y, this.radius, 0, 360 * Math.PI / 180, true);
-        context.fillStyle = this.color;
-        context.fill();
-    }
+context.drawImage(img, ball.x, ball.y, 40, 40);    }
 
     this.drawRect = function()
     {
